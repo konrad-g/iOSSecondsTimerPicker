@@ -19,6 +19,8 @@
 		8496EFAA17D08BCC006BCB07 /* KGGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496EFA917D08BCC006BCB07 /* KGGViewController.m */; };
 		8496EFAD17D08BCC006BCB07 /* KGGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EFAB17D08BCC006BCB07 /* KGGViewController_iPhone.xib */; };
 		8496EFB017D08BCC006BCB07 /* KGGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8496EFAE17D08BCC006BCB07 /* KGGViewController_iPad.xib */; };
+		8496EFB717D08BEA006BCB07 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8496EFB617D08BEA006BCB07 /* README.md */; };
+		8496EFB917D08C71006BCB07 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 8496EFB817D08C71006BCB07 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		8496EFA917D08BCC006BCB07 /* KGGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGGViewController.m; sourceTree = "<group>"; };
 		8496EFAC17D08BCC006BCB07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KGGViewController_iPhone.xib; sourceTree = "<group>"; };
 		8496EFAF17D08BCC006BCB07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KGGViewController_iPad.xib; sourceTree = "<group>"; };
+		8496EFB617D08BEA006BCB07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8496EFB817D08C71006BCB07 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		8496EF8417D08BCC006BCB07 = {
 			isa = PBXGroup;
 			children = (
+				8496EFB817D08C71006BCB07 /* LICENSE.md */,
+				8496EFB617D08BEA006BCB07 /* README.md */,
 				8496EF9617D08BCC006BCB07 /* iOSSecondsTimerPicker */,
 				8496EF8F17D08BCC006BCB07 /* Frameworks */,
 				8496EF8E17D08BCC006BCB07 /* Products */,
@@ -168,6 +174,8 @@
 				8496EFA717D08BCC006BCB07 /* Default-568h@2x.png in Resources */,
 				8496EFAD17D08BCC006BCB07 /* KGGViewController_iPhone.xib in Resources */,
 				8496EFB017D08BCC006BCB07 /* KGGViewController_iPad.xib in Resources */,
+				8496EFB717D08BEA006BCB07 /* README.md in Resources */,
+				8496EFB917D08C71006BCB07 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
