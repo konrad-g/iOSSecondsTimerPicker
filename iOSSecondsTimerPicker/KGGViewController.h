@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KGGTimePickerView.h"
 
 @interface KGGViewController : UIViewController
+
+
+@property KGGTimePickerView* timePicker;
+@property (weak, nonatomic) IBOutlet UIButton *btnDate;
 
 @end

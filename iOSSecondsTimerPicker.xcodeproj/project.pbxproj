@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843CDA0E17D53E9D00C8B548 /* KGGTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA0D17D53E9D00C8B548 /* KGGTimePickerView.m */; };
+		843CDA1017D53EF800C8B548 /* KGGTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843CDA0F17D53EF800C8B548 /* KGGTimePickerView.xib */; };
+		843CDA1317D5B56500C8B548 /* KGGTimePickerConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1217D5B56500C8B548 /* KGGTimePickerConsts.m */; };
 		8496EF9117D08BCC006BCB07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496EF9017D08BCC006BCB07 /* UIKit.framework */; };
 		8496EF9317D08BCC006BCB07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496EF9217D08BCC006BCB07 /* Foundation.framework */; };
 		8496EF9517D08BCC006BCB07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496EF9417D08BCC006BCB07 /* CoreGraphics.framework */; };
@@ -24,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843CDA0C17D53E9D00C8B548 /* KGGTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGGTimePickerView.h; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerView.h; sourceTree = SOURCE_ROOT; };
+		843CDA0D17D53E9D00C8B548 /* KGGTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGGTimePickerView.m; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerView.m; sourceTree = SOURCE_ROOT; };
+		843CDA0F17D53EF800C8B548 /* KGGTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KGGTimePickerView.xib; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerView.xib; sourceTree = SOURCE_ROOT; };
+		843CDA1117D5B56500C8B548 /* KGGTimePickerConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGGTimePickerConsts.h; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerConsts.h; sourceTree = SOURCE_ROOT; };
+		843CDA1217D5B56500C8B548 /* KGGTimePickerConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGGTimePickerConsts.m; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerConsts.m; sourceTree = SOURCE_ROOT; };
 		8496EF8D17D08BCC006BCB07 /* iOSSecondsTimerPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSecondsTimerPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496EF9017D08BCC006BCB07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8496EF9217D08BCC006BCB07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,8 +49,8 @@
 		8496EFA917D08BCC006BCB07 /* KGGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGGViewController.m; sourceTree = "<group>"; };
 		8496EFAC17D08BCC006BCB07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KGGViewController_iPhone.xib; sourceTree = "<group>"; };
 		8496EFAF17D08BCC006BCB07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KGGViewController_iPad.xib; sourceTree = "<group>"; };
-		8496EFB617D08BEA006BCB07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		8496EFB817D08C71006BCB07 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		8496EFB617D08BEA006BCB07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8496EFB817D08C71006BCB07 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +67,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843CDA0517D53C2300C8B548 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				843CDA0617D53C2300C8B548 /* TimePicker */,
+			);
+			path = 3rdParty;
+			sourceTree = SOURCE_ROOT;
+		};
+		843CDA0617D53C2300C8B548 /* TimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				843CDA0C17D53E9D00C8B548 /* KGGTimePickerView.h */,
+				843CDA0D17D53E9D00C8B548 /* KGGTimePickerView.m */,
+				843CDA0F17D53EF800C8B548 /* KGGTimePickerView.xib */,
+				843CDA1117D5B56500C8B548 /* KGGTimePickerConsts.h */,
+				843CDA1217D5B56500C8B548 /* KGGTimePickerConsts.m */,
+			);
+			path = TimePicker;
+			sourceTree = "<group>";
+		};
 		8496EF8417D08BCC006BCB07 = {
 			isa = PBXGroup;
 			children = (
-				8496EFB817D08C71006BCB07 /* LICENSE.md */,
-				8496EFB617D08BEA006BCB07 /* README.md */,
 				8496EF9617D08BCC006BCB07 /* iOSSecondsTimerPicker */,
 				8496EF8F17D08BCC006BCB07 /* Frameworks */,
 				8496EF8E17D08BCC006BCB07 /* Products */,
@@ -92,11 +118,14 @@
 			isa = PBXGroup;
 			children = (
 				8496EF9F17D08BCC006BCB07 /* KGGAppDelegate.h */,
+				8496EFB817D08C71006BCB07 /* LICENSE.md */,
+				8496EFB617D08BEA006BCB07 /* README.md */,
 				8496EFA017D08BCC006BCB07 /* KGGAppDelegate.m */,
 				8496EFA817D08BCC006BCB07 /* KGGViewController.h */,
 				8496EFA917D08BCC006BCB07 /* KGGViewController.m */,
 				8496EFAB17D08BCC006BCB07 /* KGGViewController_iPhone.xib */,
 				8496EFAE17D08BCC006BCB07 /* KGGViewController_iPad.xib */,
+				843CDA0517D53C2300C8B548 /* 3rdParty */,
 				8496EF9717D08BCC006BCB07 /* Supporting Files */,
 			);
 			path = iOSSecondsTimerPicker;
@@ -176,6 +205,7 @@
 				8496EFB017D08BCC006BCB07 /* KGGViewController_iPad.xib in Resources */,
 				8496EFB717D08BEA006BCB07 /* README.md in Resources */,
 				8496EFB917D08C71006BCB07 /* LICENSE.md in Resources */,
+				843CDA1017D53EF800C8B548 /* KGGTimePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +219,8 @@
 				8496EF9D17D08BCC006BCB07 /* main.m in Sources */,
 				8496EFA117D08BCC006BCB07 /* KGGAppDelegate.m in Sources */,
 				8496EFAA17D08BCC006BCB07 /* KGGViewController.m in Sources */,
+				843CDA0E17D53E9D00C8B548 /* KGGTimePickerView.m in Sources */,
+				843CDA1317D5B56500C8B548 /* KGGTimePickerConsts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +279,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,7 +304,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,6 +319,7 @@
 				GCC_PREFIX_HEADER = "iOSSecondsTimerPicker/iOSSecondsTimerPicker-Prefix.pch";
 				INFOPLIST_FILE = "iOSSecondsTimerPicker/iOSSecondsTimerPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -298,6 +331,7 @@
 				GCC_PREFIX_HEADER = "iOSSecondsTimerPicker/iOSSecondsTimerPicker-Prefix.pch";
 				INFOPLIST_FILE = "iOSSecondsTimerPicker/iOSSecondsTimerPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -321,6 +355,7 @@
 				8496EFB517D08BCC006BCB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
