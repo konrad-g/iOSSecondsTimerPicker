@@ -14,5 +14,6 @@
 
 @property KGGTimePickerView* timePicker;
 @property (weak, nonatomic) IBOutlet UIButton *btnDate;
+@property (weak, nonatomic) IBOutlet UILabel *labelTime;
 
 @end

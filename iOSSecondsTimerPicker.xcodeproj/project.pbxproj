@@ -10,6 +10,7 @@
 		843CDA0E17D53E9D00C8B548 /* KGGTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA0D17D53E9D00C8B548 /* KGGTimePickerView.m */; };
 		843CDA1017D53EF800C8B548 /* KGGTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843CDA0F17D53EF800C8B548 /* KGGTimePickerView.xib */; };
 		843CDA1317D5B56500C8B548 /* KGGTimePickerConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1217D5B56500C8B548 /* KGGTimePickerConsts.m */; };
+		843CDA1617D5D96400C8B548 /* KGGLabeledPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1517D5D96300C8B548 /* KGGLabeledPickerView.m */; };
 		8496EF9117D08BCC006BCB07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496EF9017D08BCC006BCB07 /* UIKit.framework */; };
 		8496EF9317D08BCC006BCB07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496EF9217D08BCC006BCB07 /* Foundation.framework */; };
 		8496EF9517D08BCC006BCB07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8496EF9417D08BCC006BCB07 /* CoreGraphics.framework */; };
@@ -32,6 +33,8 @@
 		843CDA0F17D53EF800C8B548 /* KGGTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KGGTimePickerView.xib; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerView.xib; sourceTree = SOURCE_ROOT; };
 		843CDA1117D5B56500C8B548 /* KGGTimePickerConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGGTimePickerConsts.h; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerConsts.h; sourceTree = SOURCE_ROOT; };
 		843CDA1217D5B56500C8B548 /* KGGTimePickerConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGGTimePickerConsts.m; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGTimePickerConsts.m; sourceTree = SOURCE_ROOT; };
+		843CDA1417D5D96300C8B548 /* KGGLabeledPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGGLabeledPickerView.h; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGLabeledPickerView.h; sourceTree = SOURCE_ROOT; };
+		843CDA1517D5D96300C8B548 /* KGGLabeledPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGGLabeledPickerView.m; path = iOSSecondsTimerPicker/3rdParty/TimerPicker/KGGLabeledPickerView.m; sourceTree = SOURCE_ROOT; };
 		8496EF8D17D08BCC006BCB07 /* iOSSecondsTimerPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSecondsTimerPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8496EF9017D08BCC006BCB07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8496EF9217D08BCC006BCB07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +86,8 @@
 				843CDA0F17D53EF800C8B548 /* KGGTimePickerView.xib */,
 				843CDA1117D5B56500C8B548 /* KGGTimePickerConsts.h */,
 				843CDA1217D5B56500C8B548 /* KGGTimePickerConsts.m */,
+				843CDA1417D5D96300C8B548 /* KGGLabeledPickerView.h */,
+				843CDA1517D5D96300C8B548 /* KGGLabeledPickerView.m */,
 			);
 			path = TimePicker;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				8496EFAA17D08BCC006BCB07 /* KGGViewController.m in Sources */,
 				843CDA0E17D53E9D00C8B548 /* KGGTimePickerView.m in Sources */,
 				843CDA1317D5B56500C8B548 /* KGGTimePickerConsts.m in Sources */,
+				843CDA1617D5D96400C8B548 /* KGGLabeledPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
