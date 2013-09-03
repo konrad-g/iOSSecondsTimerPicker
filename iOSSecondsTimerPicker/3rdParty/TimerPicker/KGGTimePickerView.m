@@ -2,7 +2,7 @@
 //  KGGTimePickerView.m
 //  iOSSecondsTimerPicker
 //
-//  Created by Admin on 02.09.2013.
+//  Created by Konrad Gadzinowski on 02.09.2013.
 //  Copyright (c) 2013 Konrad Gadzinowski. All rights reserved.
 //
 

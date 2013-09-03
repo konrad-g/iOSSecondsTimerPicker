@@ -2,7 +2,7 @@
 //  KGGViewController.m
 //  iOSSecondsTimerPicker
 //
-//  Created by Admin on 30.08.2013.
+//  Created by Konrad Gadzinowski on 30.08.2013.
 //  Copyright (c) 2013 Konrad Gadzinowski. All rights reserved.
 //
 
@@ -27,7 +27,7 @@
 -(void) initTimePicker {
     
     //SET ALL PICKER PROPERTIES IN CONSTRUCTOR BELOW
-    KGGTimePickerView *timePicker = [KGGTimePickerView makeViewAllowZero:NO pickDays:NO maxDays:1000 initSumSeconds:30];
+    KGGTimePickerView *timePicker = [KGGTimePickerView makeViewAllowZero:NO pickDays:YES maxDays:1000 initSumSeconds:30];
     
     [self.view addSubview:timePicker];
     [self setTimePicker:timePicker];
